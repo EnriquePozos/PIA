@@ -1,9 +1,9 @@
 # Inicio de Proyecto - Stack MERN (Arquitectura Base)
 
-## 📖 Descripción del Proyecto
+##  Descripción del Proyecto
 Este repositorio contiene la configuración y estructuración inicial para el desarrollo de una aplicación web escalable. Sirve como el punto de partida (boilerplate) para el equipo de desarrollo, estableciendo las bases del entorno de trabajo bajo el stack MERN. Está diseñado para permitir que el frontend y el backend evolucionen de manera independiente, manteniendo un entorno limpio y colaborativo.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 El proyecto se construye sobre el ecosistema MERN moderno:
 * **MongoDB:** Base de datos NoSQL para un modelado de datos flexible y escalable.
 * **Express.js:** Framework minimalista para Node.js, encargado de gestionar las rutas y la API REST.
@@ -11,7 +11,7 @@ El proyecto se construye sobre el ecosistema MERN moderno:
 * **Node.js:** Entorno de ejecución en el servidor.
 * **Git:** Sistema de control de versiones para el seguimiento estructurado del código.
 
-## 🚀 Guía de Ejecución Local
+##  Guía de Ejecución Local
 
 Para levantar este proyecto en un entorno de desarrollo local, sigue estos pasos. Es necesario tener instalado [Node.js](https://nodejs.org/) y [Git](https://git-scm.com/).
 
@@ -41,7 +41,7 @@ npm install
 npm run dev
 \`\`\`
 
-## 📐 Decisiones Técnicas y Buenas Prácticas
+##  Decisiones Técnicas y Buenas Prácticas
 Al inicializar este repositorio, se tomaron las siguientes decisiones para asegurar la viabilidad del proyecto a largo plazo hasta su paso a producción:
 
 1. **Estructura Monorepo (Separación de intereses):** Se crearon directorios raíz distintos (`/backend` y `/frontend`). Esto evita conflictos de dependencias, facilita el entendimiento del proyecto para nuevos desarrolladores y permite despliegues independientes.
